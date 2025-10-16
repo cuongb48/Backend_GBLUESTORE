@@ -31,7 +31,7 @@ var allowedOrigins = [
 'http://localhost:4048',
 // Local development
 'https://gbluestore.dantri24h.com',
-'https://admin_gbluestore.dantri24h.com',
+'https://admin-gbluestore.dantri24h.com',
 ];
 app.use(cors({
   origin: function origin(_origin, callback) {
