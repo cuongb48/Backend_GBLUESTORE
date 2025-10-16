@@ -25,11 +25,14 @@ var hostname = process.env.HOST_NAME;
 connectDB();
 
 // Cài đặt CORS
-var allowedOrigins = ['http://localhost:4046',
+var allowedOrigins = [
+  'http://localhost:4046',
 // Local development
 'http://localhost:4048',
 // Local development
-'https://bandoAnime-admin.vercel.app', 'https://bandoAnime-kt-trangchu.vercel.app', 'https://admin-dodientu.buihungcuong.site', 'https://shopbandoAnime.buihungcuong.site'];
+'https://gbluestore.dantri24h.com',
+'https://admin_gbluestore.dantri24h.com',
+];
 app.use(cors({
   origin: function origin(_origin, callback) {
     if (!_origin || allowedOrigins.includes(_origin)) {
