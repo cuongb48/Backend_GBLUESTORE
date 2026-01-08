@@ -8,8 +8,8 @@ const Order = require("../model/Order");
 
 
 const vnpay = new VNPay({
-    tmnCode: 'ULFF3R39',
-    secureSecret: 'X8AEKQN6VRZC43UF5ADL6TGB0Q0IOSTR',
+    tmnCode: 'RWGT12RE',
+    secureSecret: 'QY7RO4BTNA0NUG0ZS30M59RQNHIHRFKT',
     vnpayHost: 'https://sandbox.vnpayment.vn/paymentv2/vpcpay.html',
     testMode: true, // tùy chọn, ghi đè vnpayHost thành sandbox nếu là true
     hashAlgorithm: 'SHA512', // tùy chọn
